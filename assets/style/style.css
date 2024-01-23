@@ -58,6 +58,7 @@ main{
 }
 
 main .container.d-flex{
+  margin-bottom: 15px;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -84,4 +85,45 @@ main .container.d-flex .image span{
 footer{
   height: 80px;
   background-color: #222222;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .box{
+  height: 80px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .box.small-box{
+  flex-direction: row;
+  font-size: .8rem;
+  font-weight: 900;
+}
+
+footer .box .symbol{
+  font-size: 2rem;
+}
+
+footer .box .action{
+  font-size: .9rem;
+  padding-top: 5px;
+}
+
+footer .utilities{
+  justify-content: center;
+}
+
+footer .utilities .symbol.active{
+  color: rgb(73, 199, 0);
+}
+
+footer .quit{
+  height: 80px;
+  padding: 0 15px;
+  font-size: .9rem;
+  align-items: center;
+  background-color: rgb(74, 74, 74);
+  color: red;
 }
