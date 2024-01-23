@@ -23,23 +23,24 @@ img{
   display: flex;
 }
 
-/* main */
-
-main{
+header, main{
   background-color: black;
-  height: calc(100vh - 80px);
-  overflow: auto;
-  position: relative;
 }
 
-main .view-mode{
+/* header */
+
+header{
+  height: 80px;
+}
+
+header .view-mode{
   display: inline-block;
   position: absolute;
   top: 0;
   right: 15px;
 }
 
-main .view-mode .view-buttons{
+header .view-mode .view-buttons{
   display: inline-block;
   padding: 5px;
   margin: 5px 2px;
@@ -48,8 +49,15 @@ main .view-mode .view-buttons{
   background-color: #4a4a4a;
 }
 
+/* main */
+
+main{
+  height: calc(100vh - 160px);
+  overflow: auto;
+  position: relative;
+}
+
 main .container.d-flex{
-  margin-top: 80px;
   justify-content: center;
   flex-wrap: wrap;
 }
