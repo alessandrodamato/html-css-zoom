@@ -127,3 +127,10 @@ footer .quit{
   background-color: rgb(74, 74, 74);
   color: red;
 }
+
+footer .box:hover,
+footer .box.small-box:hover,
+footer .quit:hover{
+  cursor: pointer;
+  color: lightgray;
+}
