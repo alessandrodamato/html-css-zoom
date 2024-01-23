@@ -15,7 +15,7 @@ img{
 
 .container{
   width: 98%;
-  max-width: 1750px;
+  max-width: 1800px;
   margin: 0 auto;
 }
 
@@ -41,31 +41,34 @@ main .view-mode{
 
 main .view-mode .view-buttons{
   display: inline-block;
-  background-color: #4a4a4a;
   padding: 5px;
   margin: 5px 2px;
   border-radius: 7px;
   font-size: 12px;
+  background-color: #4a4a4a;
 }
 
 main .container.d-flex{
   margin-top: 80px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 main .container.d-flex .image{
   width: 250px;
   height: 150px;
+  margin: 0 3px 15px;
   position: relative;
 }
 
 main .container.d-flex .image span{
   display: inline-block;
+  padding: 7px;
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 7px;
-  background-color: rgba(0,0,0,.3);
   font-size: .8rem;
+  background-color: rgba(0,0,0,.3);
 }
 
 /* footer */
